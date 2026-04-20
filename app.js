@@ -1,3 +1,13 @@
+let numeroSecreto = gerarNumero();
+function gerarNumero(){
+    numero = parseInt(Math.random()*100 + 1);
+    return numero;
+}
+
+console.log(numeroSecreto);
+
+
+/*
 alert(`Boas vindas ao jogo do número secreto.`);
 let secretNumber = 5
 console.log(secretNumber);
@@ -18,3 +28,5 @@ while (guess != secretNumber){
 }
     tries++
 }
+
+*/
